@@ -30,7 +30,7 @@ brew config
 
 brew install coreutils
 brew install nginx
-brew install nginx
+brew install watchman
 
 # Install apps:
 
@@ -48,10 +48,11 @@ apps=(
   github-desktop
   figma
   slack
-  zulu11
+  zulu17
   warp
   docker
   alfred
+  android-studio
 )
 
 echo "Installing apps with Cask... ⏳"
